@@ -1,0 +1,27 @@
+const mongoose = require("mongoose")
+const trademarkDocUploadSchema = mongoose.Schema({
+photo:String,
+bcc:String,
+proofofbusinesspremices:String,
+foodsafetyplan:String,
+listoffood:String,
+bankinfo:String,
+support:String,
+formb:String,
+planofprocessingunit:String,
+listofdirectors:String,
+equipmentlist:String,
+authorityletter:String,
+waterreport:String,
+coopactcert:String,
+sourceofrawmaterial:String,
+recallplan:String,
+ministryofcommercecert:String,
+nocpa:String,
+iecode:String,
+formix:String,
+tourcert:String,
+supportdocs:String,
+dec:String,
+})
+module.exports = mongoose.model("trademarkdocs", trademarkDocUploadSchema)
